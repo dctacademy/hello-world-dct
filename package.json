@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dctacademy/hello-world-dct.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dctacademy/hello-world-dct/issues"
+  },
+  "homepage": "https://github.com/dctacademy/hello-world-dct#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
