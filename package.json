@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dctacademy/hello-world-dct#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.16.4"
   }
 }
