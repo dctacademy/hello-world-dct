@@ -1,11 +1,9 @@
 const http = require('http')
 const server= http.createServer(function(request,response){
     if(request.url==='/'){
-        response.end('My Home page')
+        response.end('No food available here')
     }
-    else if(request.url === '/products'){
-        response.end('All products visible')
-    }
+  
 }
 )
 server.listen(3000,function(){
