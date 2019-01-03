@@ -2,6 +2,8 @@ const http = require('http')
 const server= http.createServer(function(request,response){
     if(request.url==='/'){
         response.end('hello world')
+    }else if(request.url==='/about'){
+        response.end('some changes happen')
     }
 }
 )
